@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:300|Inconsolata");
+@import url("font-awesome.min.css");
+
+/* Reset */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol, ul {
+		list-style: none;
+	}
+
+blockquote, q {
+		quotes: none;
+	}
+
+blockquote:before, blockquote:after, q:before, q:after {
+		content: '';
+		content: none;
+	}
+
+table {
+		border-collapse: collapse;
+		border-spacing: 0;
+	}
+
+body {
+		-webkit-text-size-adjust: none;
+	}
+
+
+
+/* Basic */
+
+body {
+    font-family: 'Inconsolata', monospace;
+    font-size: 18px;
+    width: 100%;
+    background-color: lightgrey;
+}
+
+h1 {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 30px;
+    line-height: 300%
+}
+
+h2 {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 22px;
+    line-height: 150%;
+}
+
+h3 {
+    font-size: 40px;
+    line-height: 100%;
+}
+
+div {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 100%;
+    background-color: white;
+}
+
+p {
+    padding-bottom: 1.5em;
+    line-height: 150%;
+    text-align: justify;
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ce9210;
+    text-decoration: underline;
+}
+
+a:active {
+    color: black;
+    text-decoration: underline;
+}
+
+img {
+    max-width:100%;
+    max-height:100%;
+}
+
+td {
+    width: 50%
+}
+
+.leetchi:hover {
+    color: #e43142;
+}
+
+.facebook:hover {
+    color: #3d5a98;
+}
+
+.main {
+    width: 85%;
+}
+
+.header {
+    width: 100%;
+}
+
+.footer {
+    width: 85%;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 16px;
+}
+
+.text_footer {
+    text-align: center;
+}
+
+.desc {
+    width: 60%;
+}
+
+.row {
+    width: 90%;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+
+.table {
+    display: table;
+    table-layout: fixed
+}
+
+.photo {
+    display: table-cell;
+}
+
+.text {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 5px;
+}
+
+.left {
+    text-align: right   
+}
+
+.right {
+    text-align: left
+}
