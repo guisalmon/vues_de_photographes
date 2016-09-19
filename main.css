@@ -113,6 +113,11 @@ td {
     width: 50%
 }
 
+iframe {
+    height: 600px;
+    width: 100%;
+}
+
 .leetchi:hover {
     color: #e43142;
 }
@@ -170,4 +175,40 @@ td {
 
 .right {
     text-align: left
+}
+
+@media screen and (max-width: 1280px) {
+    
+    iframe {
+        height: 200px;
+        width: 100%;
+    }
+    
+    .main {
+        width: 100%;
+    }
+    
+    .footer {
+        width: 100%;
+        font-family: 'Alegreya Sans SC', sans-serif;
+        font-size: 16px;
+    }
+    
+    .desc {
+        width: 90%;
+    }
+    
+    .table {
+        display: block;
+    }
+    
+    .photo {
+        display: block;
+    }
+
+    .text {
+        display: block;
+        vertical-align: middle;
+        padding: 5px;
+    }
 }
