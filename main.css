@@ -69,6 +69,11 @@ h3 {
     line-height: 100%;
 }
 
+h4 {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 14px;
+}
+
 div {
     position: relative;
     margin-left: auto;
