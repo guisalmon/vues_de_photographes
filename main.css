@@ -125,10 +125,12 @@ iframe {
 
 .leetchi:hover {
     color: #e43142;
+    text-decoration: none;
 }
 
 .facebook:hover {
     color: #3d5a98;
+    text-decoration: none;
 }
 
 .main {
