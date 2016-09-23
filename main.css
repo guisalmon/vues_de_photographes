@@ -140,18 +140,18 @@ iframe {
     text-decoration: none;
 }
 
-#huma div.photo{
+.huma div.photo{
     height: 73px;
     width: 434px;
     background-image: url(photo/newlogohumanitefr-20140407-434_gris.png);
 }
 
-#huma:hover {
+.huma:hover {
     color: #e63e37;
     text-decoration: none;
 }
 
-#huma:hover div.photo {
+.huma:hover div.photo{
     background-image: url(photo/newlogohumanitefr-20140407-434.png);
 }
 
@@ -239,5 +239,17 @@ iframe {
         display: block;
         vertical-align: middle;
         padding: 5px;
+    }
+
+    
+
+    .huma div.photo{
+        height: 34px;
+        width: 200px;
+        background-image: url(photo/newlogohumanitefr-20140407-434_small_gris.png);
+    }
+
+    .huma:hover div.photo{
+        background-image: url(photo/newlogohumanitefr-20140407-434_small.png);
     }
 }
