@@ -123,6 +123,13 @@ iframe {
     width: 100%;
 }
 
+.divider {
+    margin-top: 3em;
+    height: 2px;
+    width: 50%;
+    background-color: lightgray;
+}
+
 .leetchi:hover {
     color: #e43142;
     text-decoration: none;
