@@ -133,6 +133,21 @@ iframe {
     text-decoration: none;
 }
 
+#huma div.photo{
+    height: 73px;
+    width: 434px;
+    background-image: url(photo/newlogohumanitefr-20140407-434_gris.png);
+}
+
+#huma:hover {
+    color: #e63e37;
+    text-decoration: none;
+}
+
+#huma:hover div.photo {
+    background-image: url(photo/newlogohumanitefr-20140407-434.png);
+}
+
 .main {
     width: 85%;
 }
