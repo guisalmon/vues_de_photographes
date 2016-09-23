@@ -140,19 +140,28 @@ iframe {
     text-decoration: none;
 }
 
-.huma div.photo{
-    height: 73px;
-    width: 434px;
-    background-image: url(photo/newlogohumanitefr-20140407-434_gris.png);
+.huma div.photo img{
+    filter: none;
+    -webkit-filter: grayscale(100%);
+    -moz-filter:    grayscale(100%);
+    -ms-filter:     grayscale(100%);
+    -o-filter:      grayscale(100%);
+    cursor: pointer;
+    transition: all 200ms ease;
 }
 
 .huma:hover {
+    transition: all 200ms ease;
     color: #e63e37;
     text-decoration: none;
 }
 
-.huma:hover div.photo{
-    background-image: url(photo/newlogohumanitefr-20140407-434.png);
+.huma:hover div.photo img {
+    filter: none;
+    -webkit-filter: grayscale(0%);
+    -moz-filter:    grayscale(0%);
+    -ms-filter:     grayscale(0%);
+    -o-filter:      grayscale(0%);
 }
 
 .main {
@@ -239,17 +248,5 @@ iframe {
         display: block;
         vertical-align: middle;
         padding: 5px;
-    }
-
-    
-
-    .huma div.photo{
-        height: 34px;
-        width: 200px;
-        background-image: url(photo/newlogohumanitefr-20140407-434_small_gris.png);
-    }
-
-    .huma:hover div.photo{
-        background-image: url(photo/newlogohumanitefr-20140407-434_small.png);
     }
 }
