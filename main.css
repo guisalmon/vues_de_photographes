@@ -141,7 +141,7 @@ iframe {
 }
 
 .huma div.photo img{
-    filter: none;
+    filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
     -moz-filter:    grayscale(100%);
     -ms-filter:     grayscale(100%);
@@ -157,7 +157,7 @@ iframe {
 }
 
 .huma:hover div.photo img {
-    filter: none;
+    filter: grayscale(0%);
     -webkit-filter: grayscale(0%);
     -moz-filter:    grayscale(0%);
     -ms-filter:     grayscale(0%);
