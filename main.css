@@ -140,7 +140,7 @@ iframe {
     text-decoration: none;
 }
 
-.huma div.photo img{
+.logo div.photo img{
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
     -moz-filter:    grayscale(100%);
@@ -150,13 +150,21 @@ iframe {
     transition: all 200ms ease;
 }
 
-.huma:hover {
+.logo {
     transition: all 200ms ease;
+}
+
+.huma:hover {
     color: #e63e37;
     text-decoration: none;
 }
 
-.huma:hover div.photo img {
+.inter:hover {
+    color: #ed1941;
+    text-decoration: none;
+}
+
+.logo:hover div.photo img {
     filter: grayscale(0%);
     -webkit-filter: grayscale(0%);
     -moz-filter:    grayscale(0%);
