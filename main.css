@@ -197,6 +197,11 @@ iframe {
     table-layout: fixed
 }
 
+.table_fixed {
+    display: table;
+    table-layout: fixed
+}
+
 .photo {
     display: table-cell;
 }
@@ -205,6 +210,18 @@ iframe {
     display: table-cell;
     vertical-align: middle;
     padding: 5px;
+}
+
+.text_fixed {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 5px;
+}
+
+.icon {
+    display: table-cell;
+    vertical-align: middle;
+    width: 40px;
 }
 
 .left {
