@@ -147,12 +147,17 @@ iframe {
 
 .insta:hover {
     color: #c039a7;
-    text-decoration: none
+    text-decoration: none;
 }
 
 .web:hover {
     color: #34495e;
-    text-decoration: none
+    text-decoration: none;
+}
+
+.ytbe:hover {
+    color: #cd1f21;
+    text-decoration: none;
 }
 
 .logo div.photo img{
