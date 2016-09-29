@@ -90,12 +90,12 @@ p {
 }
 
 a:link {
-    color: black;
+    color: #7f8c8d;
     text-decoration: none;
 }
 
 a:visited {
-    color: black;
+    color: #7f8c8d;
     text-decoration: none;
 }
 
@@ -151,7 +151,7 @@ iframe {
 }
 
 .web:hover {
-    color: #7f8c8d;
+    color: #34495e;
     text-decoration: none
 }
 
