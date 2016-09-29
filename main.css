@@ -101,7 +101,7 @@ a:visited {
 
 a:hover {
     color: #ce9210;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 a:active {
@@ -140,7 +140,22 @@ iframe {
     text-decoration: none;
 }
 
-.huma div.photo img{
+.mail:hover {
+    color: #e75a4d;
+    text-decoration: none;
+}
+
+.insta:hover {
+    color: #c039a7;
+    text-decoration: none
+}
+
+.web:hover {
+    color: #7f8c8d;
+    text-decoration: none
+}
+
+.logo div.photo img{
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
     -moz-filter:    grayscale(100%);
@@ -150,13 +165,21 @@ iframe {
     transition: all 200ms ease;
 }
 
-.huma:hover {
+.logo {
     transition: all 200ms ease;
+}
+
+.huma:hover {
     color: #e63e37;
     text-decoration: none;
 }
 
-.huma:hover div.photo img {
+.inter:hover {
+    color: #ed1941;
+    text-decoration: none;
+}
+
+.logo:hover div.photo img {
     filter: grayscale(0%);
     -webkit-filter: grayscale(0%);
     -moz-filter:    grayscale(0%);
